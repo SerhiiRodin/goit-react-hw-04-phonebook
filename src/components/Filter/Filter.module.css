@@ -1,0 +1,20 @@
+.form-label {
+      display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.form-input {
+  width: 250px;
+  font-size: 12px;
+
+}
+
+
+.form-input:hover, .form-input:focus {
+  border-color: rgb(158, 42, 42);
+  outline: none;
+}
