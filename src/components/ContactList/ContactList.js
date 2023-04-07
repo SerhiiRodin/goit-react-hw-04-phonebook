@@ -13,7 +13,11 @@ export function ContactList({ contacts, deleteContact }) {
             <p>
               {name}: {number}
             </p>
-            <button type="button" className={css["list-button"]} onClick={() => deleteContact(id)}>
+            <button
+              type="button"
+              className={css['list-button']}
+              onClick={() => deleteContact(id)}
+            >
               Delete
             </button>
           </li>

@@ -22,4 +22,3 @@ Filter.propTypes = {
   filter: PropTypes.string,
   updateFilter: PropTypes.func.isRequired,
 };
-
